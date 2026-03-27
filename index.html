@@ -96,7 +96,7 @@
   <main id="main">
 
     <!-- SECTION: hero -->
-    <section class="hero hero--fullwidth" style="background: linear-gradient(rgba(20, 30, 50, 0.72), rgba(20, 30, 50, 0.78)), url('images/hero-bg.jpg') center/cover no-repeat;">
+    <section class="hero hero--fullwidth" style="background: linear-gradient(rgb(20 30 50 / 23%), rgb(20 30 50 / 38%)), url('images/hero-bg.jpg') center/cover no-repeat;">
       <div class="container hero__inner">
         <div class="hero__content">
           <span class="hero__label">Welcome to James Whitfield Counselling</span>
@@ -120,7 +120,7 @@
     <!-- /SECTION: hero -->
 
     <!-- SECTION: info-band -->
-    <section class="info-band info-band--primary">
+    <section class="info-band info-band--light">
       <div class="container info-band__inner">
         <div class="info-band__item">
           <div class="info-band__icon">
@@ -153,22 +153,37 @@
     </section>
     <!-- /SECTION: info-band -->
 
-    <!-- SECTION: intro -->
+    <!-- SECTION: steps -->
     <section class="section section--alt reveal">
-      <div class="container intro__inner">
-        <div class="intro__image-wrap">
-          <img src="images/home-portrait.jpg" alt="James Whitfield, counsellor at James Whitfield Counselling" class="intro__image" width="600" height="800" loading="lazy">
+      <div class="container">
+        <div class="text-center">
+          <span class="section-label">How It Works</span>
+          <h2>A Simple, Straightforward Process</h2>
+          <p class="section-subtitle">No hoops to jump through. Here's how we get started.</p>
         </div>
-        <div class="intro__text">
-          <span class="section-label">Welcome</span>
-          <h2>Straight-talking support when you need it most</h2>
-          <p>I know it takes courage to reach out. Whether you've been putting it off for weeks or years, the fact that you're here says something. I work with men and women from all walks of life, and I understand that asking for help isn't always easy — especially when you're used to getting on with things.</p>
-          <p>My approach is practical and grounded. I won't ask you to lie on a couch or talk about your childhood unless it's relevant. Instead, we'll work together to understand what's going on, identify what needs to change, and build a clear path forward. Sessions are available in person at my Leeds practice or online.</p>
-          <a href="about.html" class="btn btn--secondary">More About Me</a>
+        <div class="steps steps--connected">
+          <div class="step">
+            <div class="step__number" style="font-family: var(--font-body);">1</div>
+            <span class="step__label">Step One</span>
+            <h3 class="step__title">Free Phone Consultation</h3>
+            <p class="step__text">A quick 15-minute chat so I can understand what you're going through and you can decide if I'm the right fit. No pressure, no obligation.</p>
+          </div>
+          <div class="step">
+            <div class="step__number" style="font-family: var(--font-body);">2</div>
+            <span class="step__label">Step Two</span>
+            <h3 class="step__title">Your First Session</h3>
+            <p class="step__text">We'll meet in person or online for 50 minutes. I'll listen, ask questions, and we'll start building a picture of what's going on and what needs to change.</p>
+          </div>
+          <div class="step">
+            <div class="step__number" style="font-family: var(--font-body);">3</div>
+            <span class="step__label">Step Three</span>
+            <h3 class="step__title">Ongoing Support</h3>
+            <p class="step__text">Regular weekly or fortnightly sessions where we work through things together. You'll develop tools and insight that last well beyond our time together.</p>
+          </div>
         </div>
       </div>
     </section>
-    <!-- /SECTION: intro -->
+    <!-- /SECTION: steps -->
 
     <!-- SECTION: services-overview -->
     <section class="section reveal">
@@ -217,6 +232,23 @@
       </div>
     </section>
     <!-- /SECTION: services-overview -->
+
+    <!-- SECTION: intro -->
+    <section class="section section--alt reveal">
+      <div class="container intro__inner">
+        <div class="intro__image-wrap">
+          <img src="images/home-portrait.jpg" alt="James Whitfield, counsellor at James Whitfield Counselling" class="intro__image" width="600" height="800" loading="lazy">
+        </div>
+        <div class="intro__text">
+          <span class="section-label">About James</span>
+          <h2>Straight-talking support when you need it most</h2>
+          <p>I know it takes courage to reach out. Whether you've been putting it off for weeks or years, the fact that you're here says something. I work with men and women from all walks of life, and I understand that asking for help isn't always easy — especially when you're used to getting on with things.</p>
+          <p>My approach is practical and grounded. I won't ask you to lie on a couch or talk about your childhood unless it's relevant. Instead, we'll work together to understand what's going on, identify what needs to change, and build a clear path forward. Sessions are available in person at my Leeds practice or online.</p>
+          <a href="about.html" class="btn btn--secondary">More About Me</a>
+        </div>
+      </div>
+    </section>
+    <!-- /SECTION: intro -->
 
     <!-- SECTION: testimonials -->
     <section class="section section--alt reveal">
@@ -336,7 +368,7 @@
   <div class="cookie-banner" role="dialog" aria-label="Cookie consent">
     <div class="cookie-banner__inner">
       <p class="cookie-banner__text">We use cookies to improve your experience. See our <a href="cookies-policy.html">cookie policy</a> for details.</p>
-      <button class="cookie-banner__accept">Accept</button>
+      <div class="cookie-banner__buttons"><button class="cookie-banner__accept">Accept</button><button class="cookie-banner__decline">Decline</button></div>
     </div>
   </div>
 
