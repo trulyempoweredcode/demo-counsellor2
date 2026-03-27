@@ -1,6 +1,6 @@
 /* =============================================
-   THEME: Clean Slate
-   Modern, sharp — professional counselling
+   THEME: Trusty Blue
+   Professional, trustworthy — counselling, healthcare
    Font Pairing: Corporate (DM Serif Display + Inter)
    ============================================= */
 
@@ -10,31 +10,31 @@
 /* --- Theme Variables --- */
 :root {
   /* Colour Palette */
-  --color-primary: #334155;
-  --color-primary-light: #475569;
-  --color-primary-dark: #1E293B;
-  --color-secondary: #3B82F6;
-  --color-secondary-light: #60A5FA;
-  --color-secondary-dark: #2563EB;
-  --color-accent: #8B5CF6;
-  --color-accent-light: #A78BFA;
+  --color-primary: #3B6FA0;
+  --color-primary-light: #5A8FBF;
+  --color-primary-dark: #2A5178;
+  --color-secondary: #D4956A;
+  --color-secondary-light: #E2B08A;
+  --color-secondary-dark: #A06B3E;
+  --color-accent: #6B8E7B;
+  --color-accent-light: #8FB3A0;
 
-  --color-bg: #F8FAFC;
-  --color-bg-alt: #F1F5F9;
-  --color-bg-dark: #1E293B;
+  --color-bg: #F8FAFB;
+  --color-bg-alt: #ECF1F4;
+  --color-bg-dark: #1E3A52;
   --color-surface: #FFFFFF;
-  --color-surface-alt: #F8FAFC;
+  --color-surface-alt: #F2F6F8;
 
-  --color-text: #334155;
+  --color-text: #2D3748;
   --color-text-light: #64748B;
-  --color-text-inverse: #F8FAFC;
-  --color-text-heading: #0F172A;
+  --color-text-inverse: #F8FAFB;
+  --color-text-heading: #1E3A52;
 
-  --color-border: #E2E8F0;
-  --color-border-light: #F1F5F9;
+  --color-border: #D4DCE4;
+  --color-border-light: #E8EDF2;
 
-  --color-success: #10B981;
-  --color-error: #EF4444;
+  --color-success: #3B8F6F;
+  --color-error: #C45B5B;
 
   /* Typography */
   --font-heading: 'DM Serif Display', Georgia, 'Times New Roman', serif;
