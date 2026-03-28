@@ -2061,10 +2061,14 @@ body:has(.nav--transparent) .hero--showcase {
   border-color: var(--color-primary);
 }
 
-/* --- Two-tier branded: darker top bar --- */
+/* --- Two-tier branded: darker top bar, subtle dividers --- */
 .nav--two-tier.nav--branded .nav__top {
   background-color: var(--color-primary-dark);
   border-bottom-color: rgba(255, 255, 255, 0.1);
+}
+
+.nav--two-tier.nav--branded .nav__bottom {
+  border-top-color: rgba(255, 255, 255, 0.1);
 }
 
 .nav--two-tier.nav--branded .nav__contact-item a,
