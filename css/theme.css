@@ -57,3 +57,13 @@
 .testimonial--standalone .testimonial__stars {
   justify-content: center;
 }
+
+/* Hero image: square aspect ratio */
+.hero .hero__image {
+  aspect-ratio: 1;
+}
+
+/* "Everyone deserves to be heard" — white background for section contrast */
+.hero + .section {
+  background-color: #ffffff;
+}
