@@ -1972,6 +1972,108 @@ body:has(.nav--transparent) .hero--showcase {
   color: var(--color-primary);
 }
 
+/* =============================================
+   BRANDED NAV
+   Solid primary-colour background with white text.
+   Add .nav--branded to the <nav> element.
+   Works with both default and two-tier layouts.
+   ============================================= */
+.nav--branded {
+  background-color: var(--color-primary);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Brand name: white */
+.nav--branded .nav__name {
+  color: var(--color-text-inverse);
+}
+
+/* Strapline: secondary accent */
+.nav--branded .nav__title {
+  color: var(--color-secondary-light);
+}
+
+/* Nav links: white default */
+.nav--branded .nav__link {
+  color: var(--color-text-inverse);
+}
+
+/* Hover + active: secondary accent */
+.nav--branded .nav__link:hover,
+.nav--branded .nav__link--active {
+  color: var(--color-secondary-light);
+}
+
+/* Active underline: secondary accent */
+.nav--branded .nav__link--active::after {
+  background-color: var(--color-secondary-light);
+}
+
+/* CTA button: secondary colour to stand out against primary bg */
+.nav--branded .btn--primary,
+.nav--branded .nav__cta {
+  background-color: var(--color-secondary);
+  border-color: var(--color-secondary);
+  color: var(--color-text-inverse);
+}
+
+.nav--branded .btn--primary:hover,
+.nav--branded .nav__cta:hover {
+  background-color: var(--color-secondary-dark);
+  border-color: var(--color-secondary-dark);
+}
+
+/* Hamburger: white bars */
+.nav--branded .nav__toggle-bar {
+  background-color: var(--color-text-inverse);
+}
+
+/* Dropdown menu: reset to white bg with dark text */
+.nav--branded .nav__dropdown-menu {
+  background-color: var(--color-surface);
+}
+
+.nav--branded .nav__dropdown-menu .nav__link,
+.nav--branded .nav__dropdown-menu .nav__dropdown-link {
+  color: var(--color-text);
+}
+
+.nav--branded .nav__dropdown-menu .nav__link:hover,
+.nav--branded .nav__dropdown-menu .nav__dropdown-link:hover {
+  color: var(--color-primary);
+}
+
+/* Mobile menu: white bg, restore dark text */
+.nav--branded .nav__mobile .nav__link {
+  color: var(--color-text);
+}
+
+.nav--branded .nav__mobile .nav__link:hover,
+.nav--branded .nav__mobile .nav__link--active {
+  color: var(--color-primary);
+}
+
+.nav--branded .nav__mobile .btn--primary {
+  background-color: var(--color-primary);
+  border-color: var(--color-primary);
+}
+
+/* --- Two-tier branded: darker top bar --- */
+.nav--two-tier.nav--branded .nav__top {
+  background-color: var(--color-primary-dark);
+  border-bottom-color: rgba(255, 255, 255, 0.1);
+}
+
+.nav--two-tier.nav--branded .nav__contact-item a,
+.nav--two-tier.nav--branded .nav__contact-item {
+  color: var(--color-text-inverse);
+}
+
+/* Contact icons: secondary accent */
+.nav--two-tier.nav--branded .nav__contact-item svg {
+  color: var(--color-secondary-light);
+}
+
 /* Stat bar — hidden by default */
 .hero__stats {
   display: none;
