@@ -1998,10 +1998,13 @@ body:has(.nav--transparent) .hero--showcase {
   color: var(--color-text-inverse);
 }
 
-/* Hover + active: secondary accent */
-.nav--branded .nav__link:hover,
-.nav--branded .nav__link--active {
+/* Hover: secondary accent, active: stay white (underline provides the accent) */
+.nav--branded .nav__link:hover {
   color: var(--color-secondary-light);
+}
+
+.nav--branded .nav__link--active {
+  color: var(--color-text-inverse);
 }
 
 /* Active underline: secondary accent */
