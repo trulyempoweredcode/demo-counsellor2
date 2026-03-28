@@ -2067,7 +2067,7 @@ body:has(.nav--transparent) .hero--showcase {
 }
 
 .nav--two-tier.nav--branded .nav__bottom {
-  border-top-color: rgba(255, 255, 255, 0.1);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .nav--two-tier.nav--branded .nav__contact-item a,
