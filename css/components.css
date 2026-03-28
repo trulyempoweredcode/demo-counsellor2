@@ -2061,9 +2061,8 @@ body:has(.nav--transparent) .hero--showcase {
   border-color: var(--color-primary);
 }
 
-/* --- Two-tier branded: darker top bar, subtle dividers --- */
+/* --- Two-tier branded: uniform colour, subtle divider --- */
 .nav--two-tier.nav--branded .nav__top {
-  background-color: var(--color-primary-dark);
   border-bottom-color: rgba(255, 255, 255, 0.1);
 }
 
